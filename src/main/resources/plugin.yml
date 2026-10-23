@@ -1,0 +1,20 @@
+name: CustomChat26
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A customizable chat plugin for Paper servers
+authors: [EnderDevelopment]
+api-version: "1.21"
+commands:
+  customchat:
+    description: Main command for CustomChat26
+    usage: /customchat <subcommand>
+    permission: customchat.admin
+    permission-message: You do not have permission to use this command.
+permissions:
+  customchat.admin:
+    description: Allows access to all CustomChat26 commands
+    default: op
+  customchat.use:
+    description: Allows players to use CustomChat26 features
+    default: true
